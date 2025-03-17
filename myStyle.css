@@ -11,6 +11,7 @@
 /* Raleway */
 /* Roboto */
 :root {
+  /* desktop */
   --desktopFontSize: 16px;
   --desktopFontSizeH1: 32px;
   --desktopFontSizeH2: 28px;
@@ -18,7 +19,7 @@
   --desktopFontSizeH4: 20px;
   --desktopFontSizeH5: 18px;
   --desktopFontSizeH6: 16px;
-
+  /* tablet */
   --tabletFontSize: 14px;
   --tabletFontSizeH1: 28px;
   --tabletFontSizeH2: 24px;
@@ -26,7 +27,7 @@
   --tabletFontSizeH4: 18px;
   --tabletFontSizeH5: 16px;
   --tabletFontSizeH6: 14px;
-
+  /* mobile */
   --mobileFontSize: 12px;
   --mobileFontSizeH1: 24px;
   --mobileFontSizeH2: 20px;
@@ -34,7 +35,7 @@
   --mobileFontSizeH4: 16px;
   --mobileFontSizeH5: 14px;
   --mobileFontSizeH6: 12px;
-
+  /* font family */
   --fontStyleMerriweather: "Merriweather", serif;
   --fontStylePlayfairDisplay: "Playfair Display", serif;
   --fontStyleLora: "Lora", serif;
