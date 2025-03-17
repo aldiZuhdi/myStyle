@@ -53,10 +53,14 @@
   --themeLightText: #212121;
   /* Technologies, Futuristic */
   --themeDarkBackground: #121212;
-  --themeDarkPrimary: #1e1e1e;
-  --themeDarkSecondary: #bb86fc;
-  --themeDarkAccent: #03dac6;
+  --themeDarkPrimary: #00e6e6;
+  --themeDarkSecondary: #ff00ff;
+  --themeDarkAccent: #ff9900;
   --themeDarkText: #e0e0e0;
+  --themeDarkRed: #ff3131;
+  --themeDarkGreen: #00ff00;
+  --themeDarkYellow: #ffb300;
+  --themeDarkBlue: #0099ff;
   /* E-Commerce, Fashion */
   --themePastelBackground: #fff0f5;
   --themePastelPrimary: #ffb6c1;
@@ -69,6 +73,16 @@
   --themePastelSecondary: #6c757d;
   --themePastelAccent: #28a745;
   --themePastelText: #343a40;
+  /* Educative, Futuristic, Learning */
+  --ThemeLearningBackgound: #f5f5f5;
+  --ThemeLearningPrimary: #007bff;
+  --ThemeLearningSecondary: #00d4ff;
+  --ThemeLearningAccent: #ffd700;
+  --ThemeLearningText: #212529;
+  --ThemeLearningGreen: #28a745;
+  --ThemeLearningRed: #dc3545;
+  --ThemeLearningYellow: #ffc107;
+  --ThemeLearningBlue: #17a2b8;
 }
 
 html,
