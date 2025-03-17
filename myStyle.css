@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* Lora */
+/* Playfair Display */
+/* Merriweather */
+/* Fira Code */
+
+/* Montserrat */
+/* Inter */
+/* Open Sans */
+/* Poppins */
+/* Raleway */
+/* Roboto */
+:root {
+  --desktopFontSize: 16px;
+  --desktopFontSizeH1: 32px;
+  --desktopFontSizeH2: 28px;
+  --desktopFontSizeH3: 24px;
+  --desktopFontSizeH4: 20px;
+  --desktopFontSizeH5: 18px;
+  --desktopFontSizeH6: 16px;
+
+  --tabletFontSize: 14px;
+  --tabletFontSizeH1: 28px;
+  --tabletFontSizeH2: 24px;
+  --tabletFontSizeH3: 20px;
+  --tabletFontSizeH4: 18px;
+  --tabletFontSizeH5: 16px;
+  --tabletFontSizeH6: 14px;
+
+  --mobileFontSize: 12px;
+  --mobileFontSizeH1: 24px;
+  --mobileFontSizeH2: 20px;
+  --mobileFontSizeH3: 18px;
+  --mobileFontSizeH4: 16px;
+  --mobileFontSizeH5: 14px;
+  --mobileFontSizeH6: 12px;
+
+  --fontStyleMerriweather: "Merriweather", serif;
+  --fontStylePlayfairDisplay: "Playfair Display", serif;
+  --fontStyleLora: "Lora", serif;
+  --fontStyleFiraCode: "Fira Code", serif;
+  --fontStylePoppins: "Poppins", sans-serif;
+  --fontStyleMontserrat: "Montserrat", sans-serif;
+  --fontStyleInter: "Inter", sans-serif;
+  --fontStyleOpenSans: "Open Sans", sans-serif;
+  --fontStyleRaleway: "Raleway", sans-serif;
+  --fontStyleRoboto: "Roboto", sans-serif;
+  /* Startup, Minimalist */
+  --themeLightBackground: #f5f5f5;
+  --themeLightPrimary: #333;
+  --themeLightSecondary: #4f4f4f;
+  --themeLightAccent: #ff6b6b;
+  --themeLightText: #212121;
+  /* Technologies, Futuristic */
+  --themeDarkBackground: #121212;
+  --themeDarkPrimary: #1e1e1e;
+  --themeDarkSecondary: #bb86fc;
+  --themeDarkAccent: #03dac6;
+  --themeDarkText: #e0e0e0;
+  /* E-Commerce, Fashion */
+  --themePastelBackground: #fff0f5;
+  --themePastelPrimary: #ffb6c1;
+  --themePastelSecondary: #ffd700;
+  --themePastelAccent: #87ceeb;
+  --themePastelText: #333;
+  /* Bussiness, Corporate */
+  --themePastelBackground: #f8f9fa;
+  --themePastelPrimary: #007bff;
+  --themePastelSecondary: #6c757d;
+  --themePastelAccent: #28a745;
+  --themePastelText: #343a40;
+}
+
+html,
+body,
+label,
+p,
+a {
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+h6 {
+  font-weight: 300;
+}
+
+@media screen and (min-width: 1024px) {
+  html,
+  body,
+  label,
+  a,
+  p {
+    font-size: var(--desktopFontSize);
+  }
+
+  h1 {
+    font-size: var(--desktopFontSizeH1);
+  }
+
+  h2 {
+    font-size: var(--desktopFontSizeH2);
+  }
+
+  h3 {
+    font-size: var(--desktopFontSizeH3);
+  }
+
+  h4 {
+    font-size: var(--desktopFontSizeH4);
+  }
+
+  h5 {
+    font-size: var(--desktopFontSizeH5);
+  }
+
+  h6 {
+    font-size: var(--desktopFontSizeH6);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  html,
+  body,
+  label,
+  a,
+  p {
+    font-size: var(--tabletFontSize);
+  }
+
+  h1 {
+    font-size: var(--tabletFontSizeH1);
+  }
+
+  h2 {
+    font-size: var(--tabletFontSizeH2);
+  }
+
+  h3 {
+    font-size: var(--tabletFontSizeH3);
+  }
+
+  h4 {
+    font-size: var(--tabletFontSizeH4);
+  }
+
+  h5 {
+    font-size: var(--tabletFontSizeH5);
+  }
+
+  h6 {
+    font-size: var(--taabletFontSizeH6);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html,
+  body,
+  label,
+  a,
+  p {
+    font-size: var(--mobileFontSize);
+  }
+
+  h1 {
+    font-size: var(--mobileFontSizeH1);
+  }
+
+  h2 {
+    font-size: var(--mobileFontSizeH2);
+  }
+
+  h3 {
+    font-size: var(--mobileFontSizeH3);
+  }
+
+  h4 {
+    font-size: var(--mobileFontSizeH4);
+  }
+
+  h5 {
+    font-size: var(--mobileFontSizeH5);
+  }
+
+  h6 {
+    font-size: var(--mobileFontSizeH6);
+  }
+}
